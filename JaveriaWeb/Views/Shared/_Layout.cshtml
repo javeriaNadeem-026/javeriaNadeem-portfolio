@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE =edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design | Javeria </title>
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--
+            custom css
+        -->
+    <link rel="stylesheet" href="~/cssj/style.css">
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="">About</a>
+            <a href="#services" class="">Services</a>
+            <a href="#portfolio" class="">Portfolio</a>
+            <a href="#contact" class="">Contact</a>
+        </nav>
+
+    </header>
+
+
+    @RenderBody()
+
+    <!--footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Javeria | All Right Reserved </p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt bx-flashing'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--custom js-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
